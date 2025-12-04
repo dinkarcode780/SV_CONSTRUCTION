@@ -11,9 +11,9 @@ const Slider = () => {
   ];
 
   const mobileImages = [
-    "https://images.unsplash.com/photo-1742535033622-1df5103bf62d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1659353741155-e988422cf9ed?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1725026455189-7e98b43d3dfa?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://ccemagazine.com/wp-content/uploads/sites/11/2023/08/Image-of-construction-workers-training-on-site-2-800x445.jpeg",
+    "https://cpe.ucdavis.edu/sites/g/files/dgvnsk15476/files/styles/sf_hero_banner_large/public/media/images/const-hero.jpg?h=bf654dbc&itok=1iECOUHR",
+    "https://www.adanirealty.com/-/media/project/realty/blogs/under-construction-projects_-pros-and-cons-of-buying-an-under-construction-property.ashx",
   ];
 
   const nextSlide = () => {
