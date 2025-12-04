@@ -1,27 +1,30 @@
 import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import { Routes, Route } from "react-router-dom";
+import { HomePage } from "./pages/HomePage";
+import About from "./pages/About";
+import Service from "./pages/Service";
+import BlogPage from "./pages/BlogPage";
+import Contact from "./pages/Contact";
+import Footer from "./components/home/Footer";
 
 const App = () => {
   return (
-    <div className="h-screen w-full flex flex-col items-center justify-center bg-gray-100 px-4">
-      <div className="bg-white p-8 rounded-2xl shadow-xl text-center max-w-md">
-        <h1 className="text-3xl font-bold text-gray-800 mb-3">
-          SV CONSTRUCTION
-        </h1>
-        <h1 className="text-3xl font-bold text-gray-800 mb-3">
-          🚧 Under Maintenance
-        </h1>
+    <div className="bg-[#E9EEFF] min-h-screen flex flex-col">
+      <Navbar />
 
-        <p className="text-gray-600 mb-6">
-          Our website is currently under scheduled maintenance.<br />
-          We’ll be back shortly. Thank you for your patience! 💛
-        </p>
+      {/* FIX: Content ko navbar ke neeche lane ke liye margin-top */}
+      <div className="flex-grow mt-20"> 
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/contact" element={<Contact />} />
 
-        <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-yellow-500 mx-auto"></div>
-
-        <p className="text-sm text-gray-500 mt-6">
-          By Developer Dinkar Diwakar
-        </p>
+        </Routes>
       </div>
+          <Footer />
     </div>
   );
 };
