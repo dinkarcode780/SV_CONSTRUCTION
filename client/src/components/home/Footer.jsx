@@ -105,7 +105,7 @@ const Footer = () => {
 <FcAbout />    <span className="text-xs">About</span>
   </a>
 
-  <a href="/all-job" className="flex flex-col items-center text-gray-500 hover:text-blue-600">
+  <a href="/service" className="flex flex-col items-center text-gray-500 hover:text-blue-600">
     <FaHeart className="text-xl" />
     <span className="text-xs">Service</span>
   </a>
