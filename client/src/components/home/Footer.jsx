@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaEnvelope, FaHeart, FaHome, FaMapMarkerAlt, FaPhoneAlt, FaUser } from 'react-icons/fa'
 import { FcAbout } from "react-icons/fc";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -95,7 +96,7 @@ const Footer = () => {
    {/* // Footer me upar define kar lo: */}
 
 
-<div className="md:hidden fixed bottom-0 left-0 right-0 bg-white shadow-md py-2 px-6 flex justify-around items-center border-t border-gray-300 z-50">
+{/* <div className="md:hidden fixed bottom-0 left-0 right-0 bg-white shadow-md py-2 px-6 flex justify-around items-center border-t border-gray-300 z-50">
   <a href="/" className="flex flex-col items-center text-blue-600">
     <FaHome className="text-xl" />
     <span className="text-xs">Home</span>
@@ -108,7 +109,27 @@ const Footer = () => {
   <a href="/service" className="flex flex-col items-center text-gray-500 hover:text-blue-600">
     <FaHeart className="text-xl" />
     <span className="text-xs">Service</span>
-  </a>
+  </a> */}
+
+{/* Mobile Bottom Navigation */}
+<div className="md:hidden fixed bottom-0 left-0 right-0 bg-white shadow-md py-2 px-6 flex justify-around items-center border-t border-gray-300 z-50">
+
+  <Link to="/" className="flex flex-col items-center text-blue-600">
+    <FaHome className="text-xl" />
+    <span className="text-xs">Home</span>
+  </Link>
+
+  <Link to="/about" className="flex flex-col items-center text-gray-500 hover:text-blue-600">
+    <FcAbout className="text-xl" />
+    <span className="text-xs">About</span>
+  </Link>
+
+  <Link to="/service" className="flex flex-col items-center text-gray-500 hover:text-blue-600">
+    <FaHeart className="text-xl" />
+    <span className="text-xs">Service</span>
+  </Link>
+
+
 
 
     {/* <button
