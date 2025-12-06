@@ -188,7 +188,7 @@ const About = () => {
         </div>
 
         <h3 className="text-xl font-semibold text-gray-900">Er Vikars Kumar</h3>
-        <p className="text-[#009688] font-medium mb-3">Director,Technichal</p>
+        <p className="text-[#009688] font-medium mb-3">Director,Technical</p>
 
         <p className="text-gray-600 text-sm leading-6 mb-4">
           Expert in project management, client handling, and operational strategy,
