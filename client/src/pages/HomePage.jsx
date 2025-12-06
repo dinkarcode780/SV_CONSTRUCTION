@@ -90,7 +90,7 @@ export const HomePage = () => {
           className="h-12 w-12 rounded-full"
         />
         <div className="ml-3">
-          <h4 className="font-semibold text-gray-900">Rahul Sharma</h4>
+          <h4 className="font-semibold text-gray-900">Ritu Sharma</h4>
           <p className="text-sm text-gray-500">Home Owner</p>
         </div>
       </div>
