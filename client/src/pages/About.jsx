@@ -140,7 +140,75 @@ const About = () => {
                 </div>
               </section>
 
-              {/* CTA */}
+              
+
+
+              {/* FOUNDER & DIRECTOR SECTION */}
+<section className="px-6 py-12 sm:px-12 lg:px-16">
+  <h2 className="text-3xl font-semibold text-gray-900 mb-8 text-center">
+    Founder & Director
+  </h2>
+
+  <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+
+    {/* FOUNDER CARD */}
+    <div className="bg-white shadow-lg rounded-xl p-6 border border-gray-200 hover:shadow-xl transition">
+      <div className="flex flex-col items-center text-center">
+
+        {/* Avatar */}
+        <div className="w-28 h-28 rounded-full bg-gray-200 mb-4 overflow-hidden">
+          <img src="/founder.jpg" alt="Founder" className="w-full h-full object-cover" />
+        </div>
+
+        <h3 className="text-xl font-semibold text-gray-900">Er. S Kumar</h3>
+        <p className="text-[#009688] font-medium mb-3">Director-Finance</p>
+
+        <p className="text-gray-600 text-sm leading-6 mb-4">
+          With 7+ years of experience in civil engineering, he has successfully
+          delivered multiple residential, commercial, and public infrastructure projects
+          with a strong focus on quality and innovation.
+        </p>
+
+        {/* Contact Info */}
+        <div className="text-gray-700 text-sm space-y-1">
+          {/* <p><strong>📍 Address:</strong> Bhopal, Madhya Pradesh</p> */}
+          <p><strong>📞 Phone:</strong>9324474833</p>
+          <p><strong>✉️ Email:</strong>sunil.svconstructionindia@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+    {/* DIRECTOR CARD */}
+    <div className="bg-white shadow-lg rounded-xl p-6 border border-gray-200 hover:shadow-xl transition">
+      <div className="flex flex-col items-center text-center">
+
+        {/* Avatar */}
+        <div className="w-28 h-28 rounded-full bg-gray-200 mb-4 overflow-hidden">
+          <img src="/director.jpg" alt="Director" className="w-full h-full object-cover" />
+        </div>
+
+        <h3 className="text-xl font-semibold text-gray-900">Er Vikars Kumar</h3>
+        <p className="text-[#009688] font-medium mb-3">Director,Technichal</p>
+
+        <p className="text-gray-600 text-sm leading-6 mb-4">
+          Expert in project management, client handling, and operational strategy,
+          ensuring every project is completed with perfection and timely delivery.
+        </p>
+
+        {/* Contact Info */}
+        <div className="text-gray-700 text-sm space-y-1">
+          {/* <p><strong>📍 Address:</strong> Bhopal, Madhya Pradesh</p> */}
+          <p><strong>📞 Phone:</strong>7889191830</p>
+          <p><strong>✉️ Email:</strong>vikas.svconstructionindia@gmail.com</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+{/* CTA */}
               <section className="bg-gray-50 rounded-xl p-8 text-center">
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">
                   We Build with Commitment and Excellence
@@ -159,6 +227,7 @@ const About = () => {
                 </Link>
 
               </section>
+
 
             </div>
           </div>

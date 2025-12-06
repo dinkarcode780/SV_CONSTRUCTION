@@ -15,18 +15,18 @@ const Footer = () => {
               <div className="mb-4">
                 <img src="/logo_w.png" alt="Logo" className="h-4" />
               </div>
-              <p className="text-sm text-gray-400 mb-3">
-                Connecting Talent with Opportunity – Your trusted job portal for skilled and unskilled workers across India.
-              </p>
+             <p className="text-sm text-gray-400 mb-3">
+  Building strong foundations with quality, trust, and expert civil construction services across India.
+</p>
               <ul className="space-y-2 text-sm text-gray-400">
                 <li className="flex items-center gap-2">
-                  <FaMapMarkerAlt /> Bhith Begusarai Bihar
+                  <FaMapMarkerAlt /> In front off Middle School Shivajinagar, Samastipur, Bihar 848117
                 </li>
                 <li className="flex items-center gap-2">
-                  <FaEnvelope /> dammi@gmail.com
+                  <FaEnvelope />svconstruction@gmail.com
                 </li>
                 <li className="flex items-center gap-2">
-                  <FaPhoneAlt />1234567890
+                  <FaPhoneAlt />7889191830, 9324474833
                 </li>
               </ul>
             </div>
@@ -35,7 +35,7 @@ const Footer = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4 text-white">For Candidates</h4>
               <ul className="space-y-2 text-sm text-gray-300">
-                <li><a href="all-job" className="hover:text-white">All Bloges</a></li>
+                <li><a href="/blog" className="hover:text-white">All Bloges</a></li>
                 <li><a href="/login" className="hover:text-white">Candidates login</a></li>
 
                 <li><a href="/register" className="hover:text-white">Candidates</a></li>
@@ -111,21 +111,21 @@ const Footer = () => {
   </a>
 
 
-    <button
+    {/* <button
     //   onClick={handleLogout}
       className="flex flex-col items-center text-red-600 hover:text-red-800 bg-transparent border-none outline-none"
     >
       <FaUser className="text-xl" />
       <span className="text-xs">Logout</span>
-    </button>
+    </button> */}
  
-    <button
+    {/* <button
     //   onClick={handleProfileClick}
       className="flex flex-col items-center text-gray-500 hover:text-blue-600 bg-transparent border-none outline-none"
     >
       <FaUser className="text-xl" />
       <span className="text-xs">Login</span>
-    </button>
+    </button> */}
   
 </div>
 
