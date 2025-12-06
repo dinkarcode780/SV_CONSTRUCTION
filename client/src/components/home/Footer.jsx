@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaEnvelope, FaHeart, FaHome, FaMapMarkerAlt, FaPhoneAlt, FaUser } from 'react-icons/fa'
+import { FaEnvelope, FaFacebook, FaHeart, FaHome, FaInstagram, FaLinkedin, FaMapMarkerAlt, FaPhoneAlt, FaTwitter, FaUser } from 'react-icons/fa'
 import { FcAbout } from "react-icons/fc";
 import { Link } from 'react-router-dom';
 
@@ -72,9 +72,9 @@ const Footer = () => {
           </div>
 
           {/* Bottom Section */}
-          <div className="flex flex-col md:flex-row justify-between items-center py-6 text-sm text-gray-400">
-            <p>© 2025 https://sv-construction.in/ — Devloped by <a href="https://github.com/dinkarcode780"> Dinkar Paswan</a>.</p>
-            {/* <div className="flex gap-4 mt-4 md:mt-0 text-xl">
+          <div className="flex flex-col md:pb-5 md:flex-row justify-between items-center py-6 text-sm text-gray-400">
+            <p>© 2025 https://sv-construction.in/<a  href="https://github.com/dinkarcode780">— Devloped by Dinkar Paswan</a>.</p>
+            <div className="flex gap-4 mt-4 md:mt-0 text-xl">
               <a href="#" title="Facebook" className="hover:scale-110 transition-transform" style={{ color: '#1877F2' }}>
                 <FaFacebook />
               </a>
@@ -87,7 +87,7 @@ const Footer = () => {
               <a href="#" title="LinkedIn" className="hover:scale-110 transition-transform" style={{ color: '#0077B5' }}>
                 <FaLinkedin />
               </a>
-            </div> */}
+            </div>
           </div>
         </div>
       </footer>

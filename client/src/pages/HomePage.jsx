@@ -12,7 +12,7 @@ export const HomePage = () => {
     {
       id: 2,
       title: "Modern Home Architecture",
-      img: "https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg",
+      img: "https://tse2.mm.bing.net/th/id/OIP.Vkw1HPamHKbxd1HvQjShhQHaD4?pid=Api&P=0&h=220",
       desc: "Latest trends in modern architecture and home design.",
     },
     {
@@ -24,7 +24,7 @@ export const HomePage = () => {
     {
       id: 4,
       title: "Construction Workflow",
-      img: "https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg",
+      img: "https://tse4.mm.bing.net/th/id/OIP.HuMNWClATy_U-II56xOalwHaE8?pid=Api&P=0&h=220",
       desc: "Understanding step-by-step construction workflow.",
     },
   ];
